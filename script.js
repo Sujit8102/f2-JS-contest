@@ -64,7 +64,7 @@ let arr = [
       ];
       
       let passedStudents = students.filter(student => {
-        return student.marks >= 50;
+        return student.marks <= 50;
       });
       
       console.log(passedStudents);
